@@ -1,0 +1,51 @@
+/****************news2开始*****************/
+#news2{
+	height: 419px;
+	background: white;
+}
+#news2 .wrapper{
+	width: 1080px;
+	height: 419px;
+}
+#three-courses{
+	width: 390px;
+	height: 30px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+#three-courses li{
+	width: 100px;
+	height: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+	float: left;
+}
+#three-courses a{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	float: left;
+	line-height: 30px;
+}
+#three-courses a:hover{
+	background: green;
+	color: white;
+}
+#manage{
+	padding-top: 50px;
+}
+#manage li{
+	width: 1070px;
+	height: 26px;
+	margin: 5px;
+	list-style-type: square;
+	font-size: 12px;
+	border-bottom: 1px dotted black; 
+	line-height: 26px;
+	padding-left: 10px;
+}
+#manage p{
+	line-height: 26px;
+	float: right;
+}
+/****************news2结束*****************/

@@ -1,0 +1,140 @@
+/**************three-course开始****************/
+#three-course{
+	height: 90px;
+}
+#three-course ul{
+	padding-top: 20px;
+	width: 360px;
+	margin: 0 auto;
+}
+#three-course li{
+	width: 100px;
+	height: 30px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#three-course li a{
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+#three-course li a:hover{
+	background: green;
+	color: white;
+}
+/**************three-course结束****************/
+
+/**************six-img开始****************/
+#six-img{
+	height: 756px;
+}
+#six-img .wrapper{
+	width: 1100px;
+	height: 756px;
+}
+#six-img img{
+	width: 232px;
+	height: 287px;
+	border: 5px solid #9999ff;
+}
+#six-img img:hover{
+	border-color: #cc9900;
+}
+#six-img p{
+	text-align: center;
+	padding-top: 5px;
+}
+#six-img li{
+	margin-left: 15px;
+	margin-right: 15px;
+	float: left;
+}
+#four-img li{
+	padding-top: 40px;
+}
+#six-img a:hover{
+	color: #6699ff;
+}
+/**************six-img结束****************/
+
+/**************notice开始****************/
+#notice{
+	height: 394px;
+}
+#notice .wrapper{
+	width: 1100px;
+	height: 394px;
+}
+#notice-left{
+	width: 335px;
+	height: 394px;
+	float: left;
+}
+#notice h3{
+	text-align: center;
+	padding-top: 40px;
+}
+#notice-left div{
+	width: 335px;
+	height: 284px;
+	border: 1px dotted black;
+	margin-top: 20px;
+}
+.pp{
+	width: 333px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 15px;
+}
+#notice-left input{
+	width: 261px;
+	height: 29px;
+	display: block;
+	margin: 0 auto;
+	border: 1px dotted gray;
+}
+#test{
+	width: 259px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	margin-left: 36px;
+}
+#test input{
+	width: 84px;
+	height: 26px;
+	display: inline;
+}
+#notice-left span{
+	font-size: 15px;
+	display: block;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: white;
+	margin-right: 5px;
+	background: url(../img/footerBackground.png);
+	position: relative;
+	left: 64px;
+	top: -10px;
+}
+#notice-right{
+	width: 675px;
+	height: 394px;
+	float: right;
+}
+#notice-right ul{
+	padding-top: 20px;
+	width: 638px;
+	font-size: 15px;
+	margin: 0 auto;
+}
+#notice-right a:hover{
+	color: blue;
+}
+/**************notice结束****************/

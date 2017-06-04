@@ -1,0 +1,245 @@
+/************who-are-we开始**************/
+#who-are-we{
+	height: 456px;
+	background: url(../img/who-are-we-bg.png);
+}
+#who-are-we .wrapper{
+	width: 1100px;
+	height: 456px;
+}
+#who-are-we p{
+	font-size: 13px;
+	line-height: 20px;
+	padding-top: 10px;
+}
+#who-are-we h2{
+	color: #2f4f4f;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#who-are-we h3{
+	padding-top: 10px;
+}
+#about{
+	float: left;
+}
+#three-p{
+	width: 625px;
+	height: 322px;
+	padding-left: 30px;
+	float: left;
+}
+#freeWoman{
+	float: right;
+}
+/************who-are-we结束**************/
+
+/************good-teach开始**************/
+#good-teach{
+	height: 350px;
+	background: url(../img/good-teach-bg.png);
+}
+#good-teach .wrapper{
+	height: 350px;
+	width: 525px;
+}
+#good-teach h1{
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+}
+#good-teach h2{
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+#good-teach img{
+	width: 525px;
+	height: 18px;
+}
+#good-teach p{
+	color: white;
+	font-size: 12px;
+	line-height: 25px;
+	padding-top: 20px;
+}
+/************good-teach结束**************/
+
+/************login开始**************/
+#login{
+	height: 420px;
+}
+#login .wrapper{
+	width: 1100px;
+	height: 420px;
+}
+#login-left{
+	width: 620px;
+	height: 360px;
+	float: left;
+	margin-top: 30px;
+}
+#login-img{
+	width: 594px;
+	margin: 0 auto;
+}
+#login-img li{
+	width: 198px;
+	height: 127px;
+	float: left;
+	text-align: center;
+}
+#login-left-down{
+	width: 594px;
+	margin: 0 auto;
+}
+#login-left-down li{
+	width: 198px;
+	height: 227px;
+	float: left;
+}
+#login-left-down h3{
+	text-align: center;
+	height: 32px;
+	line-height: 32px;
+	padding-top: 10px;
+}
+#login-left-down p{
+	width: 132px;
+	height: 161px;
+	font-size: 12px;
+	margin: 0 auto;
+	line-height: 20px;
+}
+#img1,#img2,#img3,#img4{
+	position: absolute;
+	top: 1490px;
+}
+#img1{
+	left: 130px;
+}
+#img2{
+	left: 330px;
+}
+#img3{
+	left: 530px;
+}
+#img4{
+	left: 730px;
+}
+#login-right{
+	width: 335px;
+	height: 375px;
+	float: right;
+	margin-top: 30px;
+}
+#login-right h3{
+	text-align: center;
+}
+#login-right div{
+	width: 333px;
+	height: 322px;
+	margin-top: 20px;
+	border: 1px dotted black;
+}
+.pp{
+	width: 333px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 15px;
+}
+.in{
+	border: 1px dotted black;
+	width: 261px;
+	height: 29px;
+	display: block;
+	margin: 0 auto;
+}
+.test{
+	width: 259px;
+	height: 34px;
+	background: white;
+	line-height: 34px;
+	margin: 0 auto;
+}
+.test input{
+	width: 84px;
+	height: 26px;
+	border: 1px dotted black;
+}
+#login-right span{
+	display: block;
+	font-size: 15px;
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: white;
+	margin-right: 5px;
+	background: url(../img/footerBackground.png);
+	position: relative;
+	left: 64px;
+	top: -10px;
+}
+/************login结束**************/
+
+/************pk开始**************/
+#pk{
+	height: 488px;
+	background: url(../img/sloganBackground.png);
+}
+#pk .wrapper{
+	height: 488px;
+}
+#pk-left{
+	width: 400px;
+	height: 458px;
+	float: left;
+}
+#pk-left h3{
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+}
+#pk-left img{
+	float: left;
+	margin-top: 20px;
+}
+#pk-left p{
+	color: white;
+	float: left;
+	padding-top: 42px;
+	padding-left: 10px;
+}
+#pk-right{
+	width: 400px;
+	height: 458px;
+	float: right;
+}
+#pk-right h3{
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+}
+#pk-right p{
+	color: white;
+	float: left;
+	padding-top: 42px;
+	padding-left: 10px;
+}
+#pk-right img{
+	float: left;
+	margin-top: 20px;
+}
+#pk h1{
+	color: white;
+	font-size: 50px;
+	float: left;
+	margin-top: 210px;
+	margin-left: 100px;
+}
+
+/************pk结束**************/
