@@ -15,12 +15,13 @@
       }
 
       /* basic menu styles */
-      .nav-menu {
-        display: block;
-        background: #000000;/*#74adaa*/
-        width:1000px;
-		margin-top:35px;
+	  
+      .nav .nav-menu {
+        display: inline;
+        background: #FFF198;/*#74adaa*/
+		/*此处不设置宽度让悬浮和底部对齐*/
 		float:right;
+		margin-top:35px;/*3D整体距离顶部*/
       }
       .nav-menu > li {
         display: inline;

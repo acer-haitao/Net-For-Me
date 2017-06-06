@@ -27,16 +27,20 @@ img{
 }
 
 #header .nav {
-	height:60px; 
-	width:1100px;
-	float:right;
+	position:relative;
+	height:85px; 
+	width:1149px;
+	margin-right:1px;/*距离左边距离*/
+	overflow:hidden;/*溢出隐藏*/
 }
 
 /****************header结束*******************/
+
+/****************<!--简介信息-->*******************/
 #info{
 	width:1349px;
 }
-
+/****************<!--简介信息-->*******************/
 
 /****************banner开始*******************/
 #banner{
@@ -47,6 +51,11 @@ img{
 /****************banner结束*******************/
 
 /****************响应式图片开始*******************/
+
+#photo{
+	width:1349px;
+}
+
 div.img {
     border: 1px solid #ccc;
 }
