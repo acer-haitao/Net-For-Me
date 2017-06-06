@@ -46,261 +46,66 @@ img{
 }
 /****************banner结束*******************/
 
-/****************news开始*******************/
-#news{
-	height: 195px;
+/****************响应式图片开始*******************/
+div.img {
+    border: 1px solid #ccc;
 }
-#news .wrapper{
-	height: 195px;
+
+div.img:hover {
+    border: 1px solid #777;
 }
-#new{ 
-	width: 590px;
-	padding-top: 25px;
-	float: left;
+
+div.img img {
+    width: 100%;
+    height: auto;
 }
-#ul1 li,#ul2 li{
-	width: 295px;
-	height: 30px;
-	font-size: 12px;
-	line-height: 30px;
-	text-align: center;
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
-#ul1,#ul2{
-	float: left;
-	margin-top: 30px;
+
+* {
+    box-sizing: border-box;
 }
-#ul1 a:hover{
-	color: blue;
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
 }
-#ul2 a:hover{
-	color: blue;
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
 }
-#start-class{
-	padding-top: 25px;
-	width: 402px;
-	float: right;
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
 }
-#English{
-	width: 400px;
-	height: 90px;
-	background: white;
-	border: 1px dotted black;
-	float: right;
-	margin-top: 30px;
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
-#English li{
-	width: 400px;
-	height: 30px;
-	line-height: 30px;
-	font-size: 12px;
-	text-align: center;
-}
-#English li img{
-	float: left;
-	margin-top: 8px;
-}
-#morethan{
-	position: absolute;
-	top: 540px;
-	left: 570px;
-}
-#better{
-	position: absolute;
-	left: 1172px;
-	top: 535px;
-}
-/****************news结束*******************/
+/****************响应式图片结束*******************/
+
 
 /****************courses开始*******************/
-#courses{
-	height: 530px;
-	background: url(../img/coursesBackground.png);
-}
-#courses .wrapper{
-	height: 530px;
-}
-#courses h3{
-	text-align: center;
-	padding-top: 100px;
-}
-#courses h5{
-	text-align: center;
-	padding-top: 20px;
-}
-#courses ul{
-	width: 1020px;
-	margin: 0 auto;
-}
-#courses ul li{
-	width: 194px;
-	float: left;
-	margin-right: 10px;
-	margin-top: 50px;
-}
-#courses ul a{
-	width: 194px;
-	text-align: center;
-	display: block;
-	font-size: 12px;
-}
+
 /****************courses结束*******************/
 
 /****************slogan开始*******************/
-#slogan{
-	height: 350px;
-	background: url(../img/sloganBackground.png);
-}
-#slogan .wrapper{
-	height: 350px;
-	width: 525px;
-}
-.wrapper span{
-	width: 100px;
-	height: 35px;
-	line-height: 35px;
-	text-align: center;
-	float: left;
-	font-size: 12px;
-	margin-top: 30px;
-}
-#span1{
-	background: white;
-}
-#span2{
-	background: url(../img/span2Background.png);
-	color: white;
-}
-#two-span{
-	width: 200px;
-	height: 35px;
-	margin: 0 auto;
-}
-#slogan h1{
-	text-align: center;
-	color: white;
-	padding-top: 20px;
-	padding-top: 60px;
-}
-#slogan h6{
-	text-align: center;
-	color: white;
-	padding-top: 30px;
-}
-#slogan img{
-	margin-top: 10px;
-}
-#slogan p{
-	color: white;
-	font-size: 12px;
-	line-height: 20px;
-	display: block;
-	padding-top: 20px;
-}
-#img001{
-	width: 525px;
-	height: 20px;
-}
-#KnowUs{
-	position: relative;
-	left: 200px;
-}
 
 /****************slogan结束*******************/
 
 /****************question开始*******************/
-#question{
-	height: 394px;
-	background: url(../img/questionBackground.png);
-	color: #696969;
-}
-#question .wrapper{
-	height: 394px;
-}
-#common-question{
-	float: left;
-	padding-top: 40px;
-	width: 675px;
-}
-#question-div li{
-	width: 610px;
-	height: 25px;
-	margin-top: 10px;
-	border-bottom: 1px dotted black;
-}
-#question-div li a{
-	color: #696969;
-	display: block;
-	width: 610px;
-	height: 25px;
-	line-height: 25px;
-}
-#question ul{
-	width: 610px;
-	height: 175px;
-	margin: 20px auto;
-}
-#question-div{
-	width: 675px;
-	height: 212px;
-	border: 1px dotted black;
-	float: left;
-	margin-top: 20px;
-}
-#free{
-	float: right;
-	padding-top: 40px;
-	width: 335px;
-	text-align: center;
-}
-#form{
-	width: 333px;
-	height: 300px;
-	border: 1px dotted black;
-	float: right;
-	margin-top: 20px;
-}
-#form p{
-	width: 333px;
-	height: 30px;
-	text-align: center;
-	line-height: 30px;
-}
-#form input{
-	width: 261px;
-	height: 29px;
-	display: block;
-	margin: 0 auto;
-}
-#form div{
-	width: 259px;
-	height: 27px;
-	margin: 10px auto;
-}
-#form div input{
-	width: 84px;
-	height: 26px;
-	display: inline;
-	margin-left: 0;
-}
-#form span{
-	display: block;
-	font-size: 15px;
-	width: 100px;
-	height: 25px;
-	line-height: 25px;
-	text-align: center;
-	color: white;
-	margin-right: 5px;
-	background: url(../img/footerBackground.png);
-	position: relative;
-	left: 64px;
-	top: -10px;
-}
-#more-question{
-	position: absolute;
-	top: 1640px;
-	left: 700px;
-}
+
 /****************question结束*******************/
 
 /****************footer开始*******************/
@@ -312,4 +117,5 @@ img{
 .foot-item4{ width:200px; height:20px; border:1px ; float:left}  
 .foot-item5{ width:200px; height:20px; border:1px ; float:left} 
 .foot-item6{ width:250px; height:20px; border:1px ; float:right} 
+
 /****************footer结束*******************/
